@@ -19,6 +19,17 @@
       h1   { color: #1F4E79; transition: color 0.3s ease; }
       h2   { color: #2E75B6; border-bottom: 2px solid #2E75B6; transition: color 0.3s ease, border-color 0.3s ease; }
       p    { line-height: 1.6; }
+      
+      /* Style links to match your theme and ensure readability */
+      a {
+        color: #2E75B6;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
 
       /* Fixed styling to position the toggle in the top right corner */
       .theme-toggle-btn {
@@ -42,6 +53,7 @@
       }
       body.dark-mode h1 { color: #5B9BD5; }
       body.dark-mode h2 { color: #70AD47; border-bottom: 2px solid #70AD47; }
+      body.dark-mode a { color: #5B9BD5; }
       body.dark-mode .theme-toggle-btn {
         background: #ffffff;
         color: #121212;
@@ -67,6 +79,14 @@
 
     <h2>My Goals For This Course</h2>
     <p>My goal is to continue on learning Computer Science and get a understanding of the Course.</p>
+
+    <h2>My Projects</h2>
+    <p>Check Out My Projects!</p>
+    <ul>
+      <li><a href="https://github.com/jewvan" target="_blank">My GitHub Profile</a></li>
+      <li><a href="https://cad.onshape.com/documents/87e78d3dae7a178c12216792/w/e77b7716da5ff1b9cc8809d0/e/ba8a635dfddaddc235ecb5cf?renderMode=0&uiState=6a2c2288a1af942397804a66" target="_blank">My Onshape CAD Document</a></li>
+      <li><a href="https://studio.code.org/projects/applab/ed5b6f2f-3b8c-4caf-840b-7cb495915ab1" target="_blank">My Code.org App Lab Project</a></li>
+    </ul>
 
     <!-- JavaScript logic to toggle classes and button text -->
     <script>
